@@ -1,0 +1,39 @@
+.recommendation {
+  box-sizing: content-box;
+  height: 1280px;
+  background-color: var(--menu-background);
+  width: 100%;
+  padding: 0em;
+  float: right;
+}
+
+.recommendation .header {
+  width: 100%;
+  color: white;
+  padding: 5px;
+  background-color: var(--dark-green);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.recommendation .recommendation_options {
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.recommendation .recommendation_options:hover {
+  cursor: pointer;
+  background-color: var(--light-red);
+}
+
+.hidden {
+  display: none;
+}

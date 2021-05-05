@@ -1,0 +1,12 @@
+.quit {
+  color: var(--red);
+}
+
+.company_details {
+  margin-top: 2em;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 20px;
+}

@@ -1,0 +1,64 @@
+#stock_group_create_form {
+  background: var(--menu-background);
+  width: 30em;
+  margin: 5rem auto;
+}
+.form_header {
+  width: 100%;
+  background-color: var(--dark-green);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 14px;
+  padding-left: 2em;
+  border-radius: 5px;
+}
+
+.form {
+  padding: 2em;
+}
+.form-control {
+  background-color: transparent;
+  border: 1px solid var(--light-green);
+}
+
+.form-control:focus {
+  background-color: transparent;
+  border-color: var(--light-green);
+  box-shadow: 0 0 0 0.2rem rgba(43, 137, 69, 0.3);
+}
+
+label {
+  font-size: 14px;
+}
+
+.btn {
+  margin: auto;
+  background-color: var(--light-green);
+  color: var(--white);
+  width: 15rem;
+  padding: 0.22rem;
+  font-size: 14px;
+}
+
+.btn:hover {
+  color: var(--white);
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(43, 137, 69, 0.3);
+}
+
+.button_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* Stock Display */
+.display_group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

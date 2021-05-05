@@ -1,0 +1,38 @@
+#top_nav{
+    margin-top:0.1px;
+    background-color: var(--light-green);
+    color:var(--white);
+    height:var(--top-nav-height);
+    display:flex;
+    padding:3px 30px;
+    box-sizing: content-box;
+}
+
+/* #top_nav div{
+    display: inline-block;
+} */
+#top_nav .text{
+    font-size: 15px;
+}
+
+.left{
+    display: inline-block;
+    flex:1;
+    display:flex;
+    justify-content:flex-start;
+    
+    align-items: center;
+}
+
+
+
+
+.middle{
+    display: inline-block;
+    flex:1;
+    display:flex;
+    justify-content:flex-start;
+    padding-right: 75px;
+    align-items: center;
+    
+}

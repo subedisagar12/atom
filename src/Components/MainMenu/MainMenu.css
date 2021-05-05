@@ -1,0 +1,81 @@
+/* Variables are defined in app.css */
+
+.menu_container {
+  width: 18rem;
+  max-height: 30em;
+  min-height: 15em;
+  background: var(--menu-background);
+  margin: auto;
+  margin-top: 2em;
+  scroll-behavior: smooth;
+  overflow: auto;
+  float: right;
+  margin-right: 5em;
+}
+
+.menu_container .heading {
+  width: 100%;
+  background-color: var(--dark-green);
+  height: var(--heading-height);
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu_container .heading .title {
+  color: var(--white);
+  font-size: 14px;
+  padding-top: 5px;
+}
+
+.options {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  padding-top: 5px;
+  font-weight: 800;
+  padding-bottom: 5px;
+}
+
+.option:nth-child(2n + 1) {
+  color: var(--black);
+}
+.option:nth-child(2n + 2) {
+  color: var(--dark-green);
+}
+
+/* .option:nth-child(2n + 2) {
+  color: var(--dark-green);
+} */
+
+.options:hover {
+  transition: linear 0.4s;
+  background-color: var(--light-red);
+  cursor: pointer;
+}
+
+a {
+  color: var(--light-green);
+}
+
+a:hover {
+  color: var(--dark-green);
+  text-decoration: none;
+}
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+  width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--menu-background); /* color of the tracking area */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-green); /* color of the scroll thumb */
+  border-radius: 5px; /* roundness of the scroll thumb */
+}

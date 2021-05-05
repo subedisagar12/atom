@@ -1,0 +1,14 @@
+:root {
+  --background: #d5db90;
+  --menu-background: #b2b77d;
+  --dark-green: #073e16;
+  --light-green: #2b8945;
+  --red: #cb1515;
+  --light-red: #9f7f7f;
+  --blue: #2b896d;
+  --white: #fff;
+  --black: #222222;
+  --heading-height: 1.8rem;
+  --top-nav-height: 30px;
+  --footer-height: 2rem;
+}
